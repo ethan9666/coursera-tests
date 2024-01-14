@@ -6,17 +6,65 @@
 	<title>Hello Coursera!</title>
 	<style>
 
-		div, span {
-  		background-color: blue;
+		* {
+		padding: 0;
+		margin: 0;
+		}
+
+		#purplebox {
+  		background-color: #5503fb;
+ 
+  		width: 300px;
+  		overflow: auto;
+  		box-sizing: border-box;
+  		}
+
+  		p {
+  		color: #ff6700;
+  		}
+
+  		#bg {
+  		background-color: #ff6700;
+  		height: 300px;
+  		background-size: cover;
+  		width: 40%;
+  		box-sizing: border-box;
+  		float: left;
+  		margin-right: 20px;
+  		}
+
+  		#bg2 {
+  		background-color: #5503Fb;
+  		height: 300px;
+  		background-size: cover;
+  		width: 40%;
+  		box-sizing: border-box;
+  		float: right;
+  		margin-left: 20px;
+  		}
+
+  		#clearedbox {
+  		clear: both;
   		}
 
 	</style>
 </head>
 <body>
-<body>
-  <div>Hello
+<div>
+ <div id= "bg">
+ 	<p>This is a long text that has to be spilled over, therefore, I want to see how overflow properties can control how it behaves.
+ 	</p>
  </div>
-  <span>World!</span>
+ <div id="bg2">
+ 	 <p>This is another box :)
+ 	</p>
+ </div>
+ <div id="clearedbox">
+ 	<p>
+ 	This text should be below both orange and purple boxes :)
+ 	</p>
+ </div>
+</div>
 </body>
 </div>
 </body>
